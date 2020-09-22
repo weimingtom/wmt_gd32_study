@@ -18,3 +18,5 @@ https://www.riscv-mcu.com/site/Nuclei_Studio/
 * https://dl.sipeed.com/LONGAN/Nano/Tools  
 GD32_ISP_CLI_(Windows)1.0.0.5109.rar  
 GigaDevice_MCU_ISP_Programmer_V3.0.2.5782_1.rar  
+* command line  
+GD32_ISP_CLI.exe -c --pn <PORT> --br 57600 --db 8 --pr EVEN --sb 1 --to 1000 -i GD32E230F8P6 -d --a 8000000 --fn D:\download.bin --v  
