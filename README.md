@@ -8,3 +8,10 @@ My GD32VF103 study
 ## Document  
 * https://www.riscv-mcu.com/site/  
 * https://www.rvmcu.com/quickstart-quickstart.html  
+
+## IDE  
+* Nuclei Studio IDE  
+https://www.nucleisys.com/download.php  
+https://www.riscv-mcu.com/site/Nuclei_Studio/  
+
+
