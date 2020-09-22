@@ -32,4 +32,4 @@ see stm32flashloader
 https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/flasher-stm32.html  
 * platformio firmware flash (download) command line (for example, serial port 7)      
 https://github.com/sipeed/platform-gd32v/blob/master/builder/main.py  
-stm32flash -g 0x08000000 -b 115200 -w D:\download.bin PORT7
+stm32flash -g 0x08000000 -b 115200 -w D:\download.bin COM7  
