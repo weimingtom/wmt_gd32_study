@@ -19,6 +19,8 @@ My GD32VF103 study
 * Nuclei Studio IDE  
 https://www.nucleisys.com/download.php  
 https://www.riscv-mcu.com/site/Nuclei_Studio/  
+* Arduino IDE  
+https://github.com/sipeed/Longduino  
 
 ## UART ISP firmware burning  
 * https://dl.sipeed.com/LONGAN/Nano/Tools  
