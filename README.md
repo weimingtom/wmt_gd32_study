@@ -26,5 +26,8 @@ https://github.com/sipeed/Longduino
 * https://dl.sipeed.com/LONGAN/Nano/Tools  
 GD32_ISP_CLI_(Windows)1.0.0.5109.rar  
 GigaDevice_MCU_ISP_Programmer_V3.0.2.5782_1.rar  
-* command line  
-GD32_ISP_CLI.exe -c --pn <PORT> --br 57600 --db 8 --pr EVEN --sb 1 --to 1000 -i GD32E230F8P6 -d --a 8000000 --fn D:\download.bin --v  
+* isp command line (for example, serial port 7)    
+GD32_ISP_CLI.exe -c --pn 7 --br 57600 --db 8 --pr EVEN --sb 1 --to 1000 -i GD32E230F8P6 -d --a 8000000 --fn D:\download.bin --v  
+* platformio firmware flash (download) command line (for example, serial port 7)      
+https://github.com/sipeed/platform-gd32v/blob/master/builder/main.py  
+stm32flash -g 0x08000000 -b 115200 -w D:\download.bin PORT7
