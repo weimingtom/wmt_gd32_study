@@ -33,7 +33,8 @@ https://github.com/sipeed/Longduino
 ## UART ISP firmware burning  
 * **NOTICE**  
 ISP for GD32VF103C-START:  
-switch JP4 to High,   
+Switch JP4 to High, switch JP2 to Usart    
+Connect GD-Link (Power USB line), and Connect USART (Burn USB line)  
 after running stm32flash (after burning or after isp), auto into running mode, press reset button to return to burn mode (no need to change JP4)  
 * https://dl.sipeed.com/LONGAN/Nano/Tools  
 GD32_ISP_CLI_(Windows)1.0.0.5109.rar  
