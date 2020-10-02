@@ -49,5 +49,3 @@ https://github.com/sipeed/platform-gd32v/blob/master/builder/main.py
 
 ## TencentOS-tiny  
 * https://github.com/Tencent/TencentOS-tiny/blob/master/board/GigaDevice_GD32VF103C_START/TOS_CONFIG/tos_config.h  
-
-## GD32 小熊派 BearPi-IoT  
