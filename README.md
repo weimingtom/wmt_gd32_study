@@ -6,7 +6,7 @@ My GD32VF103 study
 * Import template project (see below) and click left top button 'build' (with hammer icon)    
 * Run isp command line to burn hex firmware file, see below  
 
-## template project  
+## Template project  
 * Search baidupan, Running_Led_v1_isp.rar  
 
 ## Ref      
