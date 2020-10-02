@@ -1,8 +1,13 @@
 # wmt_gd32_study
 My GD32VF103 study
 
+## IDE, use Nuclei Studio  
+* Search baidupan, NucleiStudio_IDE_202009-win64.zip  
+* Import template project (see below) and click left top button 'build' (with hammer icon)    
+* Run isp command line to burn hex firmware file, see below  
+
 ## template project  
-* search baidupan, Running_Led_v1_isp.rar  
+* Search baidupan, Running_Led_v1_isp.rar  
 
 ## Ref      
 * https://github.com/riscv-mcu/GD32VF103_Firmware_Library  
