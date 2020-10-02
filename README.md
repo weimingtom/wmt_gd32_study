@@ -62,3 +62,12 @@ default is /RISCV/env_Eclipse/GD32VF103xB.lds
 首先进入到IDE界面，在“Project Explorer”栏中选中“Running_LED“项目；  
 单击鼠标右键，选择“Properties”。在“C/C+ Build”菜单下，点击“Setting”，在“Tool Setting"中，选择“GNU RISC-V Cross C++ Linker”栏目下的“General”，点击图标图片1，如图7-1所示；  
 点击“Workspace”选择工程内的”RISCV“目录下的连接对应的脚本。    
+
+## rt-thread  
+* https://github.com/RT-Thread/rt-thread/tree/master/bsp/nuclei/gd32vf103_rvstar  
+* https://github.com/RT-Thread/rt-thread/tree/master/bsp/gd32vf103v-eval  
+* https://zhuanlan.zhihu.com/p/135393922  
+* https://mp.weixin.qq.com/s/bY3gJuAyN51U3GHltW-D0A  
+* https://gitee.com/andyshrk/rt-thread/blob/master/bsp/gd32vf103v-eval/applications/main.c  
+
+
