@@ -1,6 +1,10 @@
 # wmt_gd32_study
 My GD32VF103 study
 
+## TODO  
+* port https://github.com/sipeed/Longduino  
+* port https://github.com/sipeed/Longan_GD32VF_examples  
+
 ## IDE, use Nuclei Studio  
 * Search baidupan, NucleiStudio_IDE_202009-win64.zip  
 * Import template project (see below) and click left top button 'build' (with hammer icon)    
