@@ -69,5 +69,5 @@ default is /RISCV/env_Eclipse/GD32VF103xB.lds
 * https://zhuanlan.zhihu.com/p/135393922  
 * https://mp.weixin.qq.com/s/bY3gJuAyN51U3GHltW-D0A  
 * https://gitee.com/andyshrk/rt-thread/blob/master/bsp/gd32vf103v-eval/applications/main.c  
-
+* search baidupan, env_riscv_1.1.3.7z  
 
