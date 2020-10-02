@@ -46,3 +46,6 @@ https://www.st.com/content/st_com/en/products/development-tools/software-develop
 * platformio firmware flash (download) command line (for example, serial port 24)      
 https://github.com/sipeed/platform-gd32v/blob/master/builder/main.py  
 .\tool-gd32vflash\stm32flash.exe -g 0x08000000 -b 115200 -w ..\Debug\Running_Led.hex COM24  
+
+## TencentOS-Tiny  
+* https://github.com/Tencent/TencentOS-tiny/blob/master/board/GigaDevice_GD32VF103C_START/TOS_CONFIG/tos_config.h  
