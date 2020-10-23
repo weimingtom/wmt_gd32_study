@@ -59,11 +59,14 @@ https://github.com/sipeed/platform-gd32v/blob/master/builder/main.py
 ## Change ld script, for Nuclei Studio, project Running_LED      
 https://www.rvmcu.com/quickstart-quickstart.html  
 default is /RISCV/env_Eclipse/GD32VF103xB.lds    
+```
 7.1 修改LDS文件  
 修改LDS文件的步骤如下：  
 首先进入到IDE界面，在“Project Explorer”栏中选中“Running_LED“项目；  
-单击鼠标右键，选择“Properties”。在“C/C+ Build”菜单下，点击“Setting”，在“Tool Setting"中，选择“GNU RISC-V Cross C++ Linker”栏目下的“General”，点击图标图片1，如图7-1所示；  
+单击鼠标右键，选择“Properties”。在“C/C+ Build”菜单下，点击“Setting”，在“Tool Setting"中，  
+选择“GNU RISC-V Cross C++ Linker”栏目下的“General”，点击图标图片1，如图7-1所示；    
 点击“Workspace”选择工程内的”RISCV“目录下的连接对应的脚本。    
+```
 
 ## rt-thread  
 * https://github.com/RT-Thread/rt-thread/tree/master/bsp/nuclei/gd32vf103_rvstar  
