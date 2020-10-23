@@ -6,6 +6,8 @@ My GD32VF103 study
 * port https://github.com/sipeed/Longan_GD32VF_examples  
 
 ## IDE, use Nuclei Studio   
+* Nuclei Studio IDE Download (or see below):  
+https://www.nucleisys.com/download.php    
 * Search baidupan, NucleiStudio_IDE_202009-win64.zip  
 * Import template project (see below) and click left top button 'build' (with hammer icon)    
 * Run isp command line to burn hex firmware file, see below  
