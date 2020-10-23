@@ -46,12 +46,16 @@ after running stm32flash (after burning or after isp), auto into running mode, p
 GD32_ISP_CLI_(Windows)1.0.0.5109.rar  
 GigaDevice_MCU_ISP_Programmer_V3.0.2.5782_1.rar  
 * isp command line (for example, serial port 24), burn and run      
+```
 .\gd32_isp_cli\GD32_ISP_CLI.exe -c --pn 24 --br 57600 --db 8 --pr EVEN --sb 1 --to 1000 -i GD32VF103CBT6 -d --a 8000000 --fn ..\Debug\Running_Led.hex --v  
 .\gd32_isp_cli\GD32_ISP_CLI.exe -c --pn 24 --br 57600 --db 8 --pr EVEN --sb 1 --to 1000 -i GD32VF103CBT6 -r --a 8000000  
+```
 https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/flasher-stm32.html  
 * platformio firmware flash (download) command line (for example, serial port 24)      
 https://github.com/sipeed/platform-gd32v/blob/master/builder/main.py  
+```
 .\tool-gd32vflash\stm32flash.exe -g 0x08000000 -b 115200 -w ..\Debug\Running_Led.hex COM24  
+```
 
 ## TencentOS-tiny  
 * https://github.com/Tencent/TencentOS-tiny/blob/master/board/GigaDevice_GD32VF103C_START/TOS_CONFIG/tos_config.h  
