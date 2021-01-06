@@ -84,3 +84,5 @@ default is /RISCV/env_Eclipse/GD32VF103xB.lds
 * GD32VF103VBT6最小系统板, for rt-thread    
 * search baidupan, env_riscv_1.1.3.7z  
 
+## GD32F103  
+https://github.com/YaFood/GD32F103  
