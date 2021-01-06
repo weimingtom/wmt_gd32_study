@@ -86,3 +86,9 @@ default is /RISCV/env_Eclipse/GD32VF103xB.lds
 
 ## GD32F103  
 https://github.com/YaFood/GD32F103  
+
+## Nuclei SDK  
+https://github.com/riscv-mcu/GD32VF103_Firmware_Library  
+https://doc.nucleisys.com/nuclei_sdk/quickstart.html  
+https://github.com/Nuclei-Software/nuclei-sdk  
+https://github.com/Nuclei-Software/NMSIS  
