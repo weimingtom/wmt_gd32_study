@@ -15,3 +15,4 @@ My GD32VF103 and GD32F450 study
 ## GD32F470V-START, GD32F470VKT6    
 * GD32F4xx_Demo_Suites_V2.6.2_v1.7z  
 * GigaDevice.GD32F4xx_DFP.3.0.4.pack  
+* https://www.gd32mcu.com/cn/download/8?kw=GD32F4  
