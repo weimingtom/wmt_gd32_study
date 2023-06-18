@@ -11,6 +11,7 @@ My GD32VF103 and GD32F450 study
 * https://lckfb.com/project/detail/lckfb_lspi?param=baseInfo  
 * liangshan-pi-nes-game-console-master.zip  
 * liangshanpi-air-game-master.zip  
+* http://club.szlcsc.com/forum/179_0_1.html  
 
 ## GD32F470V-START, GD32F470VKT6    
 * GD32F4xx_Demo_Suites_V2.6.2_v1.7z  
