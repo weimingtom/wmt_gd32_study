@@ -24,3 +24,18 @@ My GD32VF103 and GD32F450 study
 * 梁山派屏幕代码.zip  
 * 梁山派LVGL移植RGB-480x800_v0.7z  
 * https://blog.csdn.net/qq_51930953/article/details/129313750  
+
+## GD32H759I-START  
+```
+入手了GD32H759I-START开发板，只能说这块板实在是绞尽脑汁都没办法烧录，
+最后是通过外接J-Link用MDK5烧录才行——不能用jflash，
+因为jflash和MDK5的jflash都无法识别到GD32H759，这个mcu太新了，
+只能修改成Cortex-M7就能烧录，代价是不能读全片（可能通过命令行可以）。
+为何要这么麻烦呢，因为这块板各种不方便：
+（1）板载的daplink似乎不能用，只能供电
+（2）串口也无法ISP烧录
+（3）默认BOOT跳帽接L上方，在这种环境下就可以jlink了
+（4）jlink必须和gd-link同时接（双重供电），jlink的swd引脚需要自己焊接
+（5）板载的某些针脚不是2.54间距，不太适合研究GPIO，这点比不上
+GD32F470V-START和梁山派那么好用
+```
